@@ -9,5 +9,7 @@ public class UE5_Tests : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay" });
+
+		PublicIncludePaths.Add("UE5_Tests");
 	}
 }

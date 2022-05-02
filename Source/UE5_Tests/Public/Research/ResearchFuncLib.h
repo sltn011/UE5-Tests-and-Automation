@@ -17,4 +17,7 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Research | Fibonacci")
 	static int32 FibonacciRec(int32 Index);
 
+	UFUNCTION(BlueprintPure, Category = "Research | Fibonacci")
+	static int32 FibonacciIterative(int32 Index);
+
 };
